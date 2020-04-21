@@ -1,0 +1,28 @@
+Redux
+it is  a predictable state container for javascript apps
+
+predictalbe in the way of state change
+
+state  container mean managing the state
+
+it is not only for react or tightly couple with react. It is a library for react, angular, vue etc.
+
+
+
+Three main core concept of redux
+
+1. store
+2. reducer
+3. action
+
+							|---->Javascript App----------->|
+		store(state container)							Action(tell what to do not how to do)
+		(hold the state of your application)
+							|<-------reducer(tell how to do)<----|
+							
+							
+To combine multiple reducer we can use combineReducers function from redux library or by using a direct way of doing that
+
+
+							
+	
