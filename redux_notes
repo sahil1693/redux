@@ -25,4 +25,9 @@ To combine multiple reducer we can use combineReducers function from redux libra
 
 
 							
-	
+Apply middleware
+
+is used to add some extra functionalities and can by apply by using redux-logger
+
+
+redux-thunk is define AS Async action creator and it is a middleware							

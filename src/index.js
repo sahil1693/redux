@@ -90,5 +90,16 @@ unsubscribe()  // unsubscribe an action
 console.log(store.getState())
 store.dispatch(buycake()) //after unsubscribe the store we can't make changes to the store
 
+/* middleware
+const reduxLogger =require('reduxLogger');
+const logger= reduxLogger.createLogger();
+const applyMiddleWare=redux.applyMiddleware;
 
+const store = createStore(rootReducer,applyMiddleware(logger))  and can also pass many middleware  //creating a state container for store the state of an application
+console.log('initial state',store.getState())  //To get current state of a container
+const unsubscribe=store.subscribe(()=>{}));
+  And rest will remain same
+
+
+*/
 
